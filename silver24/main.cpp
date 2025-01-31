@@ -88,7 +88,6 @@ int main(){
                 }
             }
             step tmmp={cur.x+1, cur.y, cur.vis};
-            memcpy(tmmp.board, cur.board, sizeof(cur.board));
             q.push(tmmp);
         }
     }
